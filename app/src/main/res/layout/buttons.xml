@@ -13,14 +13,14 @@
             android:id="@+id/btnClear"
             android:layout_width="wrap_content"
             android:layout_height="100dp"
-            android:text="C"
-            android:fontFamily="@font/g_light"
-            android:textSize="25sp"
-            android:layout_columnWeight="1"
-            android:textColor="@color/white"
-            android:background="@color/black"
             android:layout_row="0"
-            android:layout_column="0"/>
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:background="#E41A0B"
+            android:fontFamily="@font/g_light"
+            android:text="C"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
         <Button
             android:id="@+id/btnBracket"
             android:layout_width="wrap_content"
